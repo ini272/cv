@@ -4,23 +4,18 @@
 *RISE | Visual Effects Studios*
 *05/2023 - present*
 
+- Managing the company's ~1K Linux nodes using Puppet to keep the desired system state across the multiple locations of the company. Automating software installation, IP address management, DNS records, and enrollment to the identity management system
 - Utilizing GitLab pipelines for testing and deployment processes for various infrastructure services like static DHCP records, reverse proxy configuration, and standalone web applications
-- Developing multiple Ansible roles to establish a solid infrastructure foundation, including tasks such as server enrollment to identity domains, metrics aggregation with Telegraf, repository access management, and proxy configuration
-- Consolidated web application components into a single Docker Compose file, integrating Nginx, API services, and application layers for improved deployment efficiency and system manageability
+- Developing multiple Ansible roles to create a foundation for deploying new servers, including tasks such as server enrollment to identity domains, metrics aggregation using Telegraf, and repository access
+- Unifying web application components with Docker, integrating Nginx, API services, and application layers for better system manageability
 
 **System Administrator**
 *RISE | Visual Effects Studios*
 *02/2017 – 11/2018, 05/2019 – 04/2023*
 
-- Managing the company's ~1K Linux workstations and render nodes using Puppet
-to keep the desired system state and Kickstart files for provisioning, thus 
-automating IP address management, DNS records, and enrollment to the identity
-management system
-- Racked up and deployed physical nodes in the local data center serving as virtual workstations (VMs) to meet
-the demand for remote work
-- Monitoring critical server resource utilization using InfluxDB and Grafana for
-virtualization, furthermore ingesting data from several PDUs in the local server
-room, throwing alerts upon reaching certain limits
+- Coordinated the data flow in the company, enabling teams across various locations to collaborate on shared projects
+- Established and maintained multiple in-house servers, encompassing a wiki page, ticket management system, chat application, license servers, and more
+- Monitored critical server resource utilization using Grafana and InfluxDB
 - Lead the transition from the main storage cluster using BeeGFS to a more
 performant and redundant solution using GPFS, in collaboration with an external
 vendor
@@ -29,6 +24,8 @@ the distributed file system and Proxmox as the hypervisor, deprecating the forme
 single node VirtualBox hosts, therefore increasing redundancy, eliminating a
 single point of failure, and providing a path for OS and software updates with low
 downtime
+- Racked up and deployed physical nodes in the local data center serving as virtual workstations (VMs) to meet
+the demand for remote work
 - Onboarded new IT colleagues: Informing them about ticketing procedures,
 location-specific servers, configuration management, etc.
 
@@ -36,7 +33,7 @@ location-specific servers, configuration management, etc.
 **System Administrator - Internship**
 *Storm Postproduction B.V*
 *12/2018 – 04/2019*
-- Installed and maintained the hardware and network infrastructure of new office
+- Installed and maintained the hardware and network infrastructure of a new office
 space including the setup of physical workstations, basic Linux file server, local
 switch, subnet configuration, and a VPN tunnel to the main office network
 
