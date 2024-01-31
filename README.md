@@ -1,4 +1,4 @@
-# Professinal Experience
+# Professional Experience
 
 **DevOps Engineer**
 *RISE | Visual Effects Studios*
